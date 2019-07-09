@@ -1,6 +1,6 @@
 {
   "name": "flycontroller-pex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "flycontroller for pex-renderer, designed to work with the inbuild camera",
   "main": "index.js",
   "scripts": {
