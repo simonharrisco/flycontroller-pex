@@ -106,6 +106,8 @@ Flycontrols.prototype.setup = function () {
   }
 
   function onKeyDown(e) {
+    if (!flycontrols.enabled) return
+    if (this.developerMode && !pointerLockElement) return
 		e.preventDefault();
 		switch ( e.keyCode ) {
 
@@ -128,6 +130,8 @@ Flycontrols.prototype.setup = function () {
 	}
 
 	function onKeyUp (e) {
+    if (!flycontrols.enabled) return
+    if (this.developerMode && !pointerLockElement) return
 		switch (e.keyCode) {
 			case 38: /*up*/
 			case 87: /*W*/ flycontrols.moveForward = false; break;
