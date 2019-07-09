@@ -1,0 +1,23 @@
+{
+  "name": "flycontroller-pex",
+  "version": "1.0.0",
+  "description": "flycontroller for pex-renderer, designed to work with the inbuild camera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonharrisco/flycontroller-pex.git"
+  },
+  "author": "simonharrisco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonharrisco/flycontroller-pex/issues"
+  },
+  "homepage": "https://github.com/simonharrisco/flycontroller-pex#readme",
+  "dependencies": {
+    "pex-math": "^2.1.1",
+    "signals": "^1.0.0"
+  }
+}
